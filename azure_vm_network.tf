@@ -1,10 +1,11 @@
 provider "azurerm" {
- # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
- subscription_id = "0195f565-0eca-4eae-81df-ea1d51d2806a"
- client_id       = "7a5abe4f-478a-42d5-9cf5-8bf41610e254"
- client_secret   = "MJE5s-]d6X:qC/z5V4Z@005kvL3-4W?d"
- tenant_id       = "8bcff170-9979-491e-8683-d8ced0850bad"
+  # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
+  subscription_id = "af9ea988-a518-492e-a2ad-a87098bb7364"
+  client_id       = "150f0756-df47-4f68-a971-1e9303ae2014"
+  client_secret   = "C*oy=jN4BY+*Ro0ytRcXeV6uCjLkZTB8"
+  tenant_id       = "8bcff170-9979-491e-8683-d8ced0850bad"
 }
+
 
 variable "prefix" {
   default = "tfvmex"
